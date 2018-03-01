@@ -8,5 +8,5 @@ function isPc() {
     return flag;  
 } 
 if (!isPc()){
-    window.location.href = 'http://www.51hbx.com/wap/FQcarInfo.html';
+    // window.location.href = 'http://www.51hbx.com/wap/FQcarInfo.html';
 }     

@@ -1,0 +1,92 @@
+@charset 'utf-8';
+@import  '../../../../assets/scss/normalize.css';
+@import  '../../../../assets/scss/common.scss';
+@import "../../../../assets/fonts/iconfont.css";
+.banner{
+    width:100%;
+    height:auto;
+    img{
+        width:100%;
+    }
+}
+.news{
+    width:100%;
+    min-height:575px;
+    padding:95px 0;
+    dl{
+        width:100%;
+        height:177px;
+        border-bottom:1px solid #e3e3e3;
+        margin-bottom:47px;
+        cursor: pointer;
+        &.last{
+            border:0;
+            // margin-bottom: 66px;
+        }
+        dt{
+            width:168px;;
+            height:130px;
+            margin-right:48px;
+            img{
+                width:100%;
+                height:100%;
+            }
+        }
+        dd{
+            width:984px;
+            height:100%;
+            .head{
+                width:100%;
+                height:50px;
+                line-height: 50px;
+                margin-bottom:9px;
+                p:first-child{
+                    font-size:26px;
+                    color:#484C4A;
+                }
+                p:last-child{
+                    font-size:14px;
+                    color:#484C4A;
+                }
+            }
+            .bottom{
+                width:974px;
+                line-height: 24px;
+                color:#484C4A;
+                font-size:14px;
+            }
+        }
+    }
+}
+.pege{
+    margin-bottom:94px;
+   text-align: center;
+    font-size:18px;
+    >div{
+        width:38px;
+        height:38px;
+        text-align: center;
+        line-height: 40px;
+        background: #fff;
+        border: 1px solid #e3e3e3;
+        color: #a8afac;
+        border-radius: 5px;
+        margin:0 8px;
+        cursor: pointer;
+        display:inline-block;
+        &.deg{
+            transform: rotate(180deg);
+        }
+        &.active{
+             background: #2DCE8F;
+             color: #fff;
+             border:1px solid #2DCE8F;
+        }
+    }
+    p{
+        display:inline-block;
+        line-height: 40px;
+        color:#a8afac;
+        margin-left:19px;
+    }
+}

@@ -62,7 +62,7 @@ module.exports = app.listen(port, function (err) {
         console.log(err)
         return
     }
-    var uri = 'http://10.25.1.30:' + port + '/index.html' // 直接显示页面
+    var uri = 'http://10.1.16.113:' + port + '/index.html' // 直接显示页面
     console.log('Listening at ' + uri + '\n')
     opn(uri)
 })

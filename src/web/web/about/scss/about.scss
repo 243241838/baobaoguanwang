@@ -2,161 +2,221 @@
 @import  '../../../../assets/scss/normalize.css';
 @import  '../../../../assets/scss/common.scss';
 @import "../../../../assets/fonts/iconfont.css";
-//banner
 .banner{
     width:100%;
-    height:260px;
-    background: #2ece90;
-    .center{
-        height:260px;
-        background: url(../images/banner.jpg) no-repeat;
+    height:auto;
+    img{
+        width:100%;
     }
 }
-// 关于我们
-.about{
+// 品牌与资质
+.brand{
     width:100%;
-    height:740px;
-    .center >.fl{
-        width:643px;
-        margin-right:58px;
-        padding-left:24px;
-        .head{
-            p:first-child{
-                padding-top:46px;
-                font-size:36px;
-                color:#2ece90;
-                font-weight: bold;
-                line-height: 77px;
+    height:583px;
+    .top{
+        width:218px;
+        height:192px;
+        padding-top:12px;
+        text-align: center;
+        margin:0 auto;
+        >p:first-child{
+            font-size:26px;
+            color:#484c4b;
+            font-weight: bold;
+            line-height: 192px;
+            text-shadow:0px 4px 16px #c2c2c2;
+        }
+    }
+    .bottom{
+        .fl{
+            width:732px;
+            height:285px;
+            padding-top:56px;
+            font-size:14px;
+            color:#5a5e5d;
+            p:nth-child(1){
+                line-height: 26px;
+                margin-bottom:13px;
             }
             p:nth-child(2){
-                width:32px;
-                height:1px;
-                background: #2ece90;
-                margin-bottom:43px;
+                line-height: 53px;
+            }
+            p:nth-child(3){
+                line-height: 53px;
             }
         }
-        .text{
-            font-size:14px;
-            line-height: 26px;
-            color:#5a5e5d;
-            margin-bottom:36px;
-            p{
-                margin-bottom:26px;
-            }
+        .fr{
+            margin-right:58px;
         }
-        .bottom{
-            >div{
-                text-align: center;
-                p{
-                    float: left;
-                }
-                 dl{
-                    float: left;
-                    color:#5a5e5d;
-                    width:48px;
-                    height:99px;
-                    dt{
-                        .iconfont{
-                            font-size:33px;
-                            line-height: 39px;
-                        }
-                    }
-                    dd{
-                        font-size:24px;
-                        line-height: 60px;
-                    }
-                }
-                p:nth-child(2){
-                    width:1px;
-                    height:46px;
-                    background: #eeeeee;
-                    margin-right:10px;
-                }
-                p:nth-child(3){
-                    width:1px;
-                    height:81px;
-                    background: #e3e3e3;
-                }
-            }
-            div:first-child{
-                margin-right:52px;
-                margin-left:13px;
-                dl{
-                    margin-right:74px;
-                }
-            }
-            div:nth-child(2){
-                margin-right:70px;
-                dl{
-                    margin-right:57px;
-                }
-            }
-            div:nth-child(3){
-                margin-right:60px;
-                dl{
-                    margin-right:68px;
-                }
-            }
-        }
-    }
-    .center >.fr{
-        >div{
-            width:456px;
-            height:298px;
-            background: url(../images/about.jpg) no-repeat center;
-        }
-        padding-top:358px;
     }
 }
-//地图
-.location{
+// 企业文化
+.culture{
     width:100%;
-    height:731px;
-    background: url(../images/location.jpg) no-repeat center;
-    background-size:cover;
-    .center{
-        padding-top:224px;
-        .text{
-            margin-left:17%;
-            width:316px;
-            height:321px;
-            background: #fff;
-            border-right: 2px solid #2ece90;
+    height: 582px;
+    background: #f5f5f5;
+    .top{
+        margin-bottom:52px;
+        >div:nth-child(1){
+             width:218px;
+             height:130px;
+             padding-top:42px;
+             text-align: center;
+             margin:0 auto;
+             >p:first-child{
+                font-size:26px;
+                color:#484c4b;
+                font-weight: bold;
+                line-height: 130px;
+                text-shadow:0px 4px 16px #c2c2c2;
+             }
+        }
+        >p{
+            width:100%;
+            text-align: center;
+        }
+        >p:nth-child(2){
+            font-size:20px;
+            color:#5a5e5d;
+            line-height: 47px;
+            font-weight: bold;
+        }
+        >p:last-child{
+            font-size:14px;
+            color:#5a5e5d;
+            line-height: 40px;
+        }
+    }
+    .bottom{
+        padding:0 74px 0 72px;
+        >div{
+            margin-right:93px;
+        }
+         >div:last-child{
+            margin-right:0;
+        }
+    }
+}
+// 团队
+.team{
+    .top{
+            width:218px;
+            height:180px;
+            padding-top:18px;
+            text-align: center;
+            margin:0 auto;
+            >p:first-child{
+                font-size:26px;
+                color:#484c4b;
+                font-weight: bold;
+                line-height: 130px;
+                text-shadow:0px 4px 16px #c2c2c2;
+            }
+    }
+    .bottom{
+        width:100%;
+        height:386px;
+        dl{
+            width:248px;
+            height:288px;
+            border:2px solid #d5f5e9;
+            border-radius:11px;
+            margin:0 74px;
+            text-align: center;
+            img{
+                padding-top: 34px;
+            }
+            dd{
+                font-size:28px;
+                color:#484c4a;
+                line-height: 80px;
+            }
+        }
+    }
+}
+
+// 展望未来
+.future{
+    width:100%;
+    height:582px;
+    background: #F5F5F5;
+    overflow: hidden;
+    .fl{
+        padding-top:118px;
+        margin-right:5px;
+    }
+    .fr{
+        padding-top:110px;
+        h3{
+            font-size:36px;
+            color:#484c4a;
+            line-height: 106px;
+        }
+        >div{
+            width:32px;
+            height:2px;
+            background: #e3e3e3;
+            margin-bottom:46px;
+        }
+        >p{
+            font-size:14px;
+            color:#484c4a;
+            line-height: 32px;
+        }
+    }
+}
+// 地图
+.map{
+    .top{
+        width:218px;
+        height:154;
+        padding-top:30px;
+        text-align: center;
+        margin:0 auto;
+        >p:first-child{
+            font-size:26px;
+            color:#484c4b;
+            font-weight: bold;
+            line-height: 154px;
+            text-shadow:0px 4px 16px #c2c2c2;
+        }
+    }
+    .bottom{
+        width:99%;
+        height:542px;
+        background: url(../images/map.png) no-repeat center;
+        border:1px #e3e3e3;
+        box-shadow:0 0 18px 0px #e3e3e3;
+        margin:0 auto;
+        margin-bottom:96px;
+        .left{
+            padding-left:92px;
+            padding-top:137px;
             dl{
-                margin-bottom:16px;
-                margin-left:46px;
-                overflow: hidden;
+                margin-bottom:25px;
                 dt{
-                    margin-right:24px;
-                    .iconfont{
-                        font-size:20px;
-                        line-height: 30px;
-                        color:#2ece90;
+                    margin-bottom:5px;
+                    overflow: hidden;
+                    >div:last-child{
+                        line-height: 24px;
+                        font-size:16px;
+                        color:#a8aeac;
+                        margin-left:20px;
                     }
                 }
                 dd{
-                    p{
-                        font-size:14px;
-                        line-height: 30px;
-                        color: #a8aeac;
-                        width:184px;
-                    }
-                    p:last-child{
-                         color:#5a5e5d;
-                    }
+                    width:208px;
+                    padding-left:44px;
+                    font-size:16px;
+                    line-height: 26px;
+                    color:#5a5e5d;
                 }
             }
-            dl:first-child{
-                padding-top:32px;
+            dl:last-child{
+                dd{
+                    padding-left:42px;
+                }
             }
-        }
-        .angle{
-            margin-top:150px;
-            width: 0;
-            height: 0;
-            border-top: 12px solid transparent;
-            border-left: 20px solid #2ece90;
-            border-bottom: 12px solid transparent;
         }
     }
 }

@@ -25,7 +25,11 @@
 
 .icon-chevron-copy-copy-copy:before { content: "\e621"; }
 
+.icon-iconfontdianhua:before { content: "\e628"; }
+
 .icon-bao-copy:before { content: "\e61d"; }
+
+.icon-nbbPhone1:before { content: "\e68a"; }
 
 .icon-duanxi:before { content: "\e65f"; }
 
@@ -47,17 +51,9 @@
 
 .icon-yunsuan_xiegang:before { content: "\ea24"; }
 
-.icon-yiguoqi:before { content: "\e622"; }
-
-.icon-daichudan:before { content: "\e623"; }
-
 .icon-dayuhao:before { content: "\e679"; }
 
 .icon-dianhua:before { content: "\e6be"; }
-
-.icon-daichudan-copy:before { content: "\ea25"; }
-
-.icon-yiguoqi-copy:before { content: "\ea26"; }
 
 .icon-dayuhao1:before { content: "\e602"; }
 
