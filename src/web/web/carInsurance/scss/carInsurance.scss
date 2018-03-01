@@ -1,0 +1,201 @@
+@charset 'utf-8';
+@import  '../../../../assets/scss/normalize.css';
+@import  '../../../../assets/scss/common.scss';
+@import "../../../../assets/fonts/iconfont.css";
+//banner
+.banner{
+    width:100%;
+    height:589px;
+    background:url(../images/banners.jpg) no-repeat center;
+    background-size:cover;
+    margin-bottom: 194px; 
+    .center{
+        padding-top:50px;
+    }
+    .top{
+        width:100%;
+        p{
+            text-align: center;
+            color:#fff;
+        }
+        p:first-child{
+            font-size:36px;
+            line-height: 55px;
+        }
+        p:last-child{
+            font-size:24px;
+            line-height: 42px;
+        }
+    }
+    .bottom{
+        width: 100%;
+        height:502px;
+        padding-top:52px;
+        .aimg{
+            float: left;
+            width:360px;
+            height:501px;
+            margin: 0 20px;
+            position: relative;
+            z-index:0;
+            >img{
+                width:100%;
+                height:100%;
+                position: absolute;
+                top:0;
+                left:0;
+                z-index:-1;
+            }
+            .fl{
+                width:34px;
+                height:54px;
+                background: url(../images/tui.png) no-repeat center;
+                font-size:16px;
+                text-align: center;
+                padding:0 13px;
+                padding-top:14px;
+                line-height:21px;
+                color:#fff;
+                margin: 5px 0 0 21px;
+            }
+            .fr{
+                width:81px;
+                height:40px;
+                margin:20px 20px 0 0;
+                background:#fff;
+                text-align: center;
+                span{
+                    display: inline-block;
+                    vertical-align: middle;
+                    width:0;
+                    height:100%;
+                }
+                img{
+                    vertical-align: middle;
+                }
+            }
+        }
+        .text{
+            margin-top:236px;
+            margin-left:40px;
+            color:#fff;
+            h2{
+                font-size:35px;
+                line-height: 53px;
+            }
+            div:nth-child(2){
+                width:124px;
+                height:21px;
+                background:url(../images/star.png) no-repeat left;
+                margin-bottom:31px;
+            }
+            div:nth-child(3){
+                width:43px;
+                height:4px;
+                background: #fff;
+                margin-bottom:26px;
+            }
+            p{
+                font-size:18px;
+                line-height:33px;
+            }
+        }
+    }
+}
+// 介绍
+.recommend{
+    width:100%;
+    height:798px;
+    background:#f5f5f5;
+   .top{
+       width:100%;
+       height:399px;
+       .left{
+            width:50%;
+            height:100%;
+            background: url(../images/ft.jpg) no-repeat center;
+            background-size:cover;
+       }
+       .right{
+           width:300px;
+           padding-left: 200px;
+           padding-top:74px;
+           >div{
+               margin-top:17px;
+               p:first-child{
+                   font-size:24px;
+                   color:#484c4b;
+                   width:100%;
+                   height:35px;
+                   vertical-align: middle;
+                   span{
+                       display: inline-block;
+                       width:0;
+                       height:100%;
+                       vertical-align: middle
+                   }
+                   img{
+                      margin-right:20px;
+                      vertical-align: middle;
+                   }
+               }
+               p:last-child{
+                  padding-left:44px;
+                  font-size:14px;
+                  color:#a8aeac;
+               }
+           }
+       }
+   }
+   .bottom{
+       width:100%;
+       height:397px;
+       .right{
+           width:50%;
+           height:100%;
+           background:url(../images/fb.jpg) no-repeat center;
+           background-size:cover;
+       }
+       .left{
+           width:311px;
+           padding-top:75px;
+           margin-right: 200px;
+           >div{
+               >p{
+                   width:100%;
+                   height:37px;
+                   img{
+                        margin-right:20px;
+                        width:24px;
+                        height:24px;
+                        vertical-align: middle;
+                        display: block;
+                        float:left;
+                        margin-top:6.5px;
+                   }
+                   b{
+                        font-size:24px;
+                        color:#484c4b;
+                        font-weight: normal;
+                        line-height: 37px;
+                        display: block;
+                        float:left;
+                        span{
+                            width:11px;
+                            height:100%;
+                            display: inline-block;
+                        }
+                   }
+               }
+               >div{
+                   margin-top:19px;
+                   margin-left:46px;
+                   width:266px;
+                   font-size:14px;
+                   color:#a8aeac;
+                   line-height: 26px;
+               }
+           }
+       }
+   }
+}
